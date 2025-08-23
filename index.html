@@ -3,13 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Relógio Digital Simples</title>
+    <title>Sistema Front Pomodoro</title>
     <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
 </head>
 <body>
-    <h1>Bem-vindo ao relógio digital</h1>
-    <div id="clock">00:00:00</div> <!-- Clock display -->
-    <button id="colorButton">Alterar cor do fundo</button> <!-- Button to change color -->
+
+    <div>                                                           <!-- ABERTO DIV PARA SEPARAR A TELA EM DOIS -->
+        <h1>Pomodoro 2025.2</h1>
+
+        <button>Pomodo</button>
+        <button>Pausa curta</button>
+        <button>Pausa longa</button>
+
+        <div id="clock">00:00</div>
+        <div>#1 Pomodoro</div>
+
+        <button>Iniciar</button>
+        <button>Pausar</button>
+        <button>Finalizar</button>
+
+    </div>
+        <h2>Tarefas</h2>
+        <button>Ocultar Finalizadas</button>
+        
+        <ul>                                                       <!-- UL SERVE PARA LISTAR ITENS (LISTA Ñ ORDENADA) / OL PARA ORDENADA -->
+            <il>
+                <input type="checkbox">
+                <p>Criar o HTML do Pomodoro App</p>
+            </il>
+            <il>
+                <input type="checkbox">
+                <p>Aplicar estilo CSS</p>
+            </il>
+            <il>
+                <input type="checkbox">
+                <p>Adicionar interatividade com Javascript</p>
+            </il>
+            <il>
+                <input type="text" autofocus placeholder="Digite sua tarefa"
+            </il>  
+        </ul>
+
+        <button>Nova tarefa</button>
+    <div>
+        
+
+
 
     <script src="clock.js"></script> <!-- Link to JavaScript file -->
 </body>
