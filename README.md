@@ -39,3 +39,12 @@ JavaScript (Vanilla)
 (Sem frameworks por enquanto, focado no aprendizado dos fundamentos)
 
 📁 Estrutura atual do projeto
+/
+├── index.html
+├── style.css
+└── script.js
+
+📌 Status do projeto
+
+🚧 Em desenvolvimento
+Atualmente estou estruturando a interface e começando a lógica do temporizador. Atualizações serão feitas com frequência conforme o progresso da aula.
