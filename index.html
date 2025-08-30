@@ -1,55 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema Front Pomodoro</title>
     <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
 </head>
+
 <body>
 
-    <div>                                                           <!-- ABERTO DIV PARA SEPARAR A TELA EM DOIS -->
-        <h1>Pomodoro 2025.2</h1>
+    <div class="container">
 
-        <button>Pomodo</button>
-        <button>Pausa curta</button>
-        <button>Pausa longa</button>
+        <div class="timer"> <!-- ABERTO DIV PARA SEPARAR A TELA EM DOIS -->
+            <h1>Pomodoro 2025.2</h1>
 
-        <div id="clock">00:00</div>
-        <div>#1 Pomodoro</div>
+            <div>
+                <button class="btn-link btn-active">Pomodoro</button>
+                <button class="btn-link">Pausa curta</button>
+                <button class="btn-link">Pausa longa</button>
+            </div>
 
-        <button>Iniciar</button>
-        <button>Pausar</button>
-        <button>Finalizar</button>
 
+            <div class="counter">
+                <div id="clock">00:00</div>
+                <div class="cicle">#1 Pomodoro</div>
+            </div>
+
+            <div>
+                <button class="btn-link btn-large btn-active">Iniciar</button>
+                <button class="btn-link hidden">Pausar</button>
+                <button class="btn-link btn-large">Finalizar</button>
+            </div>
+        </div>
+
+        <div class="task">
+            <h2>Tarefas</h2>
+            <button>Ocultar Finalizadas</button>
+
+            <ul> <!-- UL SERVE PARA LISTAR ITENS (LISTA Ñ ORDENADA) / OL PARA ORDENADA -->
+                <il>
+                    <input type="checkbox">
+                    <p>Criar o HTML do Pomodoro App</p>
+                </il>
+                <il>
+                    <input type="checkbox">
+                    <p>Aplicar estilo CSS</p>
+                </il>
+                <il>
+                    <input type="checkbox">
+                    <p>Adicionar interatividade com Javascript</p>
+                </il>
+                <il>
+                    <input type="text" autofocus placeholder="Digite sua tarefa" </il>
+            </ul>
+
+            <button>Nova tarefa</button>
+        </div>
     </div>
-        <h2>Tarefas</h2>
-        <button>Ocultar Finalizadas</button>
-        
-        <ul>                                                       <!-- UL SERVE PARA LISTAR ITENS (LISTA Ñ ORDENADA) / OL PARA ORDENADA -->
-            <il>
-                <input type="checkbox">
-                <p>Criar o HTML do Pomodoro App</p>
-            </il>
-            <il>
-                <input type="checkbox">
-                <p>Aplicar estilo CSS</p>
-            </il>
-            <il>
-                <input type="checkbox">
-                <p>Adicionar interatividade com Javascript</p>
-            </il>
-            <il>
-                <input type="text" autofocus placeholder="Digite sua tarefa"
-            </il>  
-        </ul>
-
-        <button>Nova tarefa</button>
-    <div>
-        
-
 
 
     <script src="clock.js"></script> <!-- Link to JavaScript file -->
 </body>
+
 </html>
