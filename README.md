@@ -1,33 +1,32 @@
 ⏱️ Pomodoro App – Reestruturação de Projeto Frontend
 
-Transformando um relógio simples em uma ferramenta de produtividade.
+Transformando um relógio simples em uma ferramenta completa de produtividade.
 
-Este repositório é parte de um projeto da aula de Frontend, originalmente um fork de um relógio digital que exibia o horário atual em tempo real. A proposta inicial era simples, mas está sendo completamente modificada para criar um aplicativo de Pomodoro, com foco em melhorar a concentração e a gestão do tempo.
+Este repositório nasceu de um fork de um relógio digital que exibia o horário em tempo real. Agora, está sendo reestruturado para se tornar um aplicativo de Técnica Pomodoro, ajudando estudantes e profissionais a manterem o foco e a gerenciarem melhor o tempo.
 
+🔄 Alterações realizadas até agora
 
-🔄 O que foi alterado até agora
+✨ HTML totalmente reestruturado para suportar o novo layout do Pomodoro.
 
-🔥 HTML completamente reestruturado para suportar o novo layout do Pomodoro.
+🎨 CSS original removido e substituído por um novo estilo visual limpo, responsivo e funcional.
 
-🧹 Todo o CSS original foi removido para dar lugar a um novo estilo visual mais limpo e funcional.
+🧹 JavaScript antigo excluído para dar lugar a uma lógica própria de Pomodoro.
 
-🧼 Código JavaScript antigo excluído, já que será implementada uma nova lógica para temporizadores Pomodoro.
+⏳ Início da implementação do temporizador Pomodoro, incluindo pausas e ciclos.
 
+🎯 Objetivo do projeto
 
-🧠 Início da implementação da lógica Pomodoro (temporizador, pausas, ciclos).
+Criar uma aplicação que auxilie estudantes ou profissionais a praticarem a Técnica Pomodoro, com as seguintes funcionalidades:
 
+⏱️ Temporizador de 25 minutos para foco
 
-🎯 Objetivo do novo projeto
+☕ Pausa curta de 5 minutos
 
-Criar uma aplicação que auxilie estudantes ou profissionais a praticarem a Técnica Pomodoro, com as seguintes funcionalidades planejadas:
+💤 Pausa longa de 15 minutos
 
-Temporizador de 25 minutos para foco
+🔄 Contagem de ciclos (exibição do ciclo atual)
 
-Pausa curta (5 minutos) e pausa longa (15 minutos)
-
-Contagem de ciclos
-
-Interface amigável e responsiva
+📱 Interface amigável e responsiva
 
 💻 Tecnologias utilizadas
 
@@ -35,16 +34,6 @@ HTML5
 
 CSS3
 
-JavaScript (Vanilla)
-(Sem frameworks por enquanto, focado no aprendizado dos fundamentos)
+JavaScript (Vanilla) – sem frameworks no momento (foco no aprendizado dos fundamentos)
 
-📁 Estrutura atual do projeto
-/
-├── index.html
-├── style.css
-└── script.js
-
-📌 Status do projeto
-
-🚧 Em desenvolvimento
-Atualmente estou estruturando a interface e começando a lógica do temporizador. Atualizações serão feitas com frequência conforme o progresso da aula.
+📁 Estrutura do projeto
