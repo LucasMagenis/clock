@@ -37,10 +37,14 @@ CSS3
 JavaScript (Vanilla) – sem frameworks no momento (foco no aprendizado dos fundamentos)
 
 📁 Estrutura do projeto
+
 / 
 ├── index.html      # Estrutura principal da aplicação
+
 ├── style.css       # Estilos visuais e responsividade
+
 └── script.js       # Lógica do temporizador Pomodoro
+
 
 🚀 Como executar
 
