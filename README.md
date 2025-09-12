@@ -37,3 +37,28 @@ CSS3
 JavaScript (Vanilla) – sem frameworks no momento (foco no aprendizado dos fundamentos)
 
 📁 Estrutura do projeto
+/ 
+├── index.html      # Estrutura principal da aplicação
+├── style.css       # Estilos visuais e responsividade
+└── script.js       # Lógica do temporizador Pomodoro
+
+🚀 Como executar
+
+1. Baixe ou clone o repositório:
+    git clone https://github.com/SEU-USUARIO/pomodoro-app.git
+
+2. Abra a pasta do projeto no seu computador.
+
+3. Execute o arquivo index.html diretamente no navegador.
+
+📌 Status do projeto
+
+🚧 Em desenvolvimento – funcionalidades principais já estruturadas (HTML + CSS + início do JS).
+
+🔜 Próximos passos:
+
+Finalizar a lógica completa do temporizador (pausar, reiniciar, finalizar ciclos).
+
+Adicionar lista de tarefas integradas ao Pomodoro.
+
+Melhorar responsividade para telas menores.
