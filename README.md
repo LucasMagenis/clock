@@ -45,7 +45,7 @@ JavaScript (Vanilla) – sem frameworks no momento (foco no aprendizado dos fund
 🚀 Como executar
 
 1. Baixe ou clone o repositório:
-    git clone https://github.com/SEU-USUARIO/pomodoro-app.git
+    git clone https://github.com/LucasMagenis/clock.git
 
 2. Abra a pasta do projeto no seu computador.
 
