@@ -1,0 +1,59 @@
+
+@media (max-width: 768px){
+
+    html{
+        font-size: 14px;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .timer, 
+    .tasks{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .timer h1,
+    .timer div{
+        text-align: center;
+    }
+
+    .timer{
+        position: fixed;
+        height: 80%;
+        padding-bottom: 50px;
+    }
+
+    .tasks{
+        position: relative;
+        top: 80%;
+        border-radius: 16px;
+        margin-top: -16px;
+        background: #fff;
+        z-index: 99;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    .btn-link, 
+    .btn-large{
+        font-size: 1.2rem;
+    }
+
+    .btn-large{
+        width: 100%;
+    }
+
+}
+
+@media (max-width:325px) {
+
+    #clock{
+        font-size: 6rem;
+    }
+
+}

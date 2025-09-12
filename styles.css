@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+CA:wght@100..400&family=Russo+One&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
 
 *{
-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html{
@@ -18,7 +18,7 @@ body{
 }
 
 h1{
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 900;
     margin-bottom: 60px;
 }
@@ -34,20 +34,17 @@ button{
     height: 100vh;
 }
 
-.timer, .task{
+.timer, 
+.tasks{
     width: 50%;
     padding: 50px 75px;
-    /* padding: 20px 10px;
-    padding: 20px 10px 20px 10px;
-    padding-top: 20px; */
 }
 
 .timer{
     display: flex;
     flex-direction: column;
-    /* background-color: green; */
-    background: linear-gradient(rgba(158, 226, 0, 0.5), rgba(158, 226, 0, 0.5)), 
-        url('forest.jpg') 50% / cover no-repeat;
+    background: linear-gradient(rgba(158, 226, 0, 0.5), rgba(158, 226, 0, 0.5)),
+     url('https://github.com/lucasbeskow/clock/blob/main/forest.jpg?raw=true') 50% / cover no-repeat;
 }
 
 .counter{
@@ -57,26 +54,31 @@ button{
 
 #clock{
     font-size: 6rem;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 .cicle{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-weight: 700;
     padding: 16px;
 }
 
 .btn-link{
-    font-size: 1.2  rem;
+    font-size: 1.4rem;
     font-weight: 700;
     padding: 8px 16px;
     border-radius: 4px;
 }
 
 .btn-large{
-    font-size: 2rem;
+    font-size: 3rem;
     padding: 16px 32px;
+}
 
+.btn-alt{
+    background-color: #9EE200;
+    border-color: #9EE200;
+    color: var(--color-primary);
 }
 
 .btn-active,
@@ -87,4 +89,95 @@ button{
 
 .hidden{
     display: none;
+}
+
+
+/* BEM - Block Element Modifier */
+
+.tasks{
+    display: flex;
+    flex-direction:column;
+    width: 50%;
+    padding: 24px 72px;
+}
+
+
+.tasks__header{
+    padding: 24px 0;
+}
+
+.tasks__header h2{
+    display: inline-block;
+    margin: 0;
+}
+
+.tasks__header button{
+    float: right;
+}
+
+
+.tasks__list{
+    flex-grow: 1;
+    padding-left: 0;
+}
+
+.tasks__list li{
+    display: flex;
+    align-items: center;
+    padding: 18px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.tasks__list--card li{
+    display: flex;
+    padding: 18px 12px;
+    margin: 12px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.tasks__list li > label{
+    flex-grow: 1;
+    padding: 4px 8px;
+}
+
+.tasks__list li input[type="checkbox"]:checked + label{
+    text-decoration: line-through;
+}
+
+.tasks__list li > input[type="text"]{
+    width: 100%;
+    padding: 4px;
+    margin-left: 8px;
+    font-size: 1rem;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* Resetando estilo padrão do checkbox */
+.tasks__list li input[type="checkbox"] {
+    appearance: none; /* Remove estilo padrão */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #9EE200;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 12px;
+    position: relative;
+}
+
+/* Quando marcado, pinta de verde */
+.tasks__list li input[type="checkbox"]:checked {
+    background-color: #9EE200;
+    border-color: #9EE200;
 }
