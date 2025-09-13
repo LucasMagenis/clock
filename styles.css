@@ -177,9 +177,6 @@ button{
 
 
 
-
-
-
 /* Resetando estilo padrão do checkbox */
 .tasks__list li input[type="checkbox"] {
     appearance: none; /* Remove estilo padrão */
