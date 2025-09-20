@@ -51,7 +51,6 @@ botaoNova.addEventListener('click', () =>{
   input.type = "text";
   input.placeholder = "Digite sua tarefa";
 
-
   li.appendChild(input);
   lista.appendChild(li);
   input.focus();
