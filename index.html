@@ -19,9 +19,9 @@
             <div>
                 <h1>Pomodoro 2025.2</h1>
 
-                <button class="btn-link btn-active">Pomodoro</button>
-                <button class="btn-link">Pausa curta</button>
-                <button class="btn-link">Pausa longa</button>
+                <button id="pomodoro" class="botoes btn-link btn-active">Pomodoro</button>
+                <button id="pausaCurta" class="botoes btn-link">Pausa curta</button>
+                <button id="pausaLonga" class="botoes btn-link">Pausa longa</button>
             </div>
 
             <div class="counter">
@@ -30,10 +30,10 @@
             </div>
 
             <div>
-                <button class="btn-link btn-large btn-active">Iniciar</button>
-                <button class="btn-link btn-large btn-active hidden">Parar</button>
-                <button class="btn-link">Finalizar</button>
-            </div>
+                <button id="iniciar" class="botoes btn-link btn-large btn-active">Iniciar</button>
+                <button id="parar" class="botoes btn-link btn-large btn-active hidden">Parar</button>
+                <button id="finalizar" class="botoes btn-link">Finalizar</button>
+              </div>
         </div>
 
         <div class="tasks">
@@ -43,7 +43,7 @@
                 <button class="btn-link btn-active">Ocultar finalizadas</button>
             </div>
 
-            <ul class="tasks__list tasks__list--card ">
+            <ul id="lista" class="tasks__list tasks__list--card ">
                 <li>
                     <input type="checkbox" id="task1" checked>
                     <label for="task1">Criar o HTML do Pomodoro App</label>
@@ -62,7 +62,7 @@
                   
             </ul>
 
-            <button class="btn-large btn-alt">Nova Tarefa</button>
+            <button id="nova" class="btn-large btn-alt">Nova Tarefa</button>
         </div>
 
     </div>

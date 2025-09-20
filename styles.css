@@ -99,6 +99,10 @@ button{
 }
 
 
+
+
+
+
 /* BEM - Block Element Modifier */
 
 .tasks{
@@ -162,14 +166,6 @@ button{
     cursor: pointer;
 }
 
-/* Campo de texto ao adicionar/editar */
-.tasks__list li input[type="text"] {
-    flex-grow: 1;
-    padding: 6px 10px;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-}
 
 
 
@@ -197,71 +193,9 @@ button{
     border-color: #9EE200;
 }
 
+
+/* Faz ficar com uma linha em cima do texto do checkbox quando estiver marcado */
 .tasks__list li input[type="checkbox"]:checked + label {
     text-decoration: line-through;
     color: #888;
 }
-
-
-
-
-
-
-.hidden {
-    display: none !important;
-  }
-
-  .hidden {
-    opacity: 0;
-    max-height: 0;
-    overflow: hidden;
-    transition: opacity .2s, max-height .2s;
-  }
-  
-
-
-
-
-
-
-
-
-
-
-/* Ações (ícones) */
-.task-actions {
-    display: flex;
-    gap: 6px;
-}
-
-.task-actions button {
-    width: 32px;
-    height: 32px;
-    border: none;
-    border-radius: 50%;
-    background: transparent;
-    cursor: pointer;
-    font-size: 1.1rem;
-    line-height: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background 0.2s, transform 0.2s;
-}
-
-.task-actions button:hover {
-    transform: scale(1.1);
-}
-
-/* Ícone editar */
-.task-actions button[title="Editar tarefa"]:hover {
-    background: #e6f9ec;
-    color: #2e7d32;
-}
-
-/* Ícone excluir */
-.task-actions button[title="Excluir tarefa"]:hover {
-    background: #fdecea;
-    color: #c62828;
-}
-

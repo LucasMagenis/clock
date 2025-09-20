@@ -1,0 +1,59 @@
+
+const clock = document.getElementById('clock');
+
+const botaoPomodoro = document.getElementById("pomodoro");
+const botaoPausaCurta = document.getElementById("pausaCurta");
+const botaoPausaLonga = document.getElementById("pausaLonga");
+const botaoFinalizar = document.getElementById("finalizar");
+const botaoIniciar = document.getElementById("iniciar");
+const botaoParar = document.getElementById("parar");
+
+const botoes = document.querySelectorAll('.botoes');
+
+function limpa(){
+  for (const bt of botoes) {
+    bt.classList.remove('btn-active');
+  }
+}
+
+botaoPomodoro.addEventListener('click', () => {
+  clock.textContent = "25:00";
+  limpa();
+  botaoPomodoro.classList.add('btn-active');
+})
+
+botaoPausaCurta.addEventListener('click', () => {
+  clock.textContent = "05:00";
+  limpa();
+  botaoPausaCurta.classList.add('btn-active');
+})
+
+botaoPausaLonga.addEventListener('click', () => {
+  clock.textContent = "15:00";
+  limpa();
+  botaoPausaLonga.classList.add('btn-active');
+})
+
+botaoFinalizar.addEventListener('click', () => {
+  clock.textContent = "00:00";
+  limpa();
+  botaoFinalizar.classList.add('btn-active');
+})
+
+const lista = document.getElementById("lista");
+const botaoNova = document.getElementById("nova");
+
+botaoNova.addEventListener('click', () =>{
+
+  const li = document.createElement('li');
+  const input = document.createElement('input');
+
+  input.type = "text";
+  input.placeholder = "Digite sua tarefa";
+
+
+  li.appendChild(input);
+  lista.appendChild(li);
+  input.focus();
+
+})
