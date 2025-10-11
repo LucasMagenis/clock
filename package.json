@@ -1,0 +1,14 @@
+{
+  "name": "clock",
+  "version": "1.0.0",
+  "description": "⏱️ Pomodoro App – Reestruturação de Projeto Frontend",
+  "main": "clock.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucas Vitali Magenis",
+  "license": "ISC",
+  "dependencies": {
+    "easytimer.js": "^4.6.0"
+  }
+}
