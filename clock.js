@@ -1,3 +1,4 @@
+
 const timer = new easytimer.Timer();
 const clock = document.getElementById('clock');
 
