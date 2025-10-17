@@ -41,12 +41,6 @@ botaoFinalizar.addEventListener('click', () => {
 })
 
 
-// botaoFinalizar.addEventListener('click', () => {
-//   clock.textContent = "00:00";
-//   limpa();
-//   botaoFinalizar.classList.add('btn-active');
-// })
-
 botaoPomodoro.addEventListener('click', () => {
   clock.textContent = "25:00";
   limpa();
@@ -65,11 +59,7 @@ botaoPausaLonga.addEventListener('click', () => {
   botaoPausaLonga.classList.add('btn-active');
 })
 
-// botaoFinalizar.addEventListener('click', () => {
-//   clock.textContent = "00:00";
-//   limpa();
-//   botaoFinalizar.classList.add('btn-active');
-// })
+
 
 const lista = document.getElementById("lista");
 const botaoNova = document.getElementById("nova");
