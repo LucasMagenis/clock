@@ -77,4 +77,4 @@ botaoNova.addEventListener('click', () =>{
   lista.appendChild(li);
   input.focus();
 
-})
+}) 
