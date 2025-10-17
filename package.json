@@ -1,13 +1,21 @@
 {
   "name": "clock",
   "version": "1.0.0",
-  "description": "⏱️ Pomodoro App – Reestruturação de Projeto Frontend",
+  "description": "",
   "main": "clock.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Lucas Vitali Magenis",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasbeskow/clock.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasbeskow/clock/issues"
+  },
+  "homepage": "https://github.com/lucasbeskow/clock#readme",
   "dependencies": {
     "easytimer.js": "^4.6.0"
   }

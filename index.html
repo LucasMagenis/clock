@@ -1,13 +1,11 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Pomodoro 2025.2 </title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Pomodoro 2025.2</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
     <link rel="stylesheet" href="mobile.css">
-
 </head>
 <body>
 
@@ -29,10 +27,10 @@
             </div>
 
             <div>
-                <button id="iniciar" class="botoes btn-link btn-large btn-active">Iniciar</button>
-                <button id="pausar" class="botoes btn-link btn-large btn-active hidden">Parar</button>
-                <button id="finalizar" class="botoes btn-link">Finalizar</button>
-              </div>
+                <button id="iniciar" class="btn-link btn-large btn-active">Iniciar</button>
+                <button id="pausar" class="btn-link btn-large btn-active hidden">Parar</button>
+                <button id="finalizar" class="btn-link">Finalizar</button>
+            </div>
         </div>
 
         <div class="tasks">
@@ -45,7 +43,7 @@
             <ul id="lista" class="tasks__list tasks__list--card ">
                 <li>
                     <input type="checkbox" id="task1" checked>
-                    <label for="task1">Criar o HTML do Pomodoro App</label>
+                    <label for="task1">2. Criar o HTML do Pomodoro App</label>
                 </li>
                 <li>
                     <input type="checkbox" id="task2">
@@ -58,7 +56,6 @@
                 <li>
                     <input type="text" autofocus placeholder="Digite sua tarefa">
                 </li>
-                  
             </ul>
 
             <button id="nova" class="btn-large btn-alt">Nova Tarefa</button>
@@ -67,7 +64,6 @@
     </div>
 
     <script src="node_modules/easytimer.js/dist/easytimer.min.js"></script>
-    <script src="clock.js"></script>
-
+    <script src="clock.js"></script> <!-- Link to JavaScript file -->
 </body>
 </html>
